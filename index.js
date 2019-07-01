@@ -56,7 +56,7 @@ Polygon.prototype.numberOfSides = function() {
 }
 
 function Quadrilateral(s1, s2, s3, s4){
-  Polygon.call(this, [s1, s2, s3])
+  Polygon.call(this, [s1, s2, s3, s4])
 }
 
 Quadrilateral.prototype = Object.create(Polygon.prototype)
