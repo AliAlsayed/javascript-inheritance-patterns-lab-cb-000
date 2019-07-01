@@ -20,9 +20,3 @@ Shape.prototype.move = function(x, y){
 function Circle(radius){}
 
 Circle.prototype = Object.create(Shape.prototype)
-
-
-
-
-
-
