@@ -49,7 +49,7 @@ Polygon.prototype.perimeter = function() {
     p += this.sides[i].length;
   }
   return(p);
-} 
+}
 
 Polygon.prototype.numberOfSides = function() {
   return(this.sides.length);
