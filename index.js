@@ -60,3 +60,4 @@ function Triangle(s1, s2, s3){
 }
 
 Triangle.prototype = Object.create(Polygon.prototype)
+Triangle.prototype.constructor = Triangle
