@@ -107,4 +107,3 @@ Square.prototype.listProperties = function() {
   }
   return(props);
 }
-
