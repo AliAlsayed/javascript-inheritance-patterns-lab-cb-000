@@ -38,3 +38,6 @@ Circle.prototype.circumference = function() {
 function Polygon(sides){
   this.sides = sides
 }
+
+Polygon.prototype = Object.create(Shape.prototype)
+Polygon.prototype.constructor = Polygon
