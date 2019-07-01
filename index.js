@@ -55,9 +55,9 @@ Polygon.prototype.numberOfSides = function() {
   return(this.sides.length);
 }
 
-// function Triangle(s1, s2, s3){
-//   Polygon.call(this, [s1, s2, s3])
-// }
-//
-// Triangle.prototype = Object.create(Polygon.prototype)
-// Triangle.prototype.constructor = Triangle
+function Triangle(s1, s2, s3){
+  Polygon.call(this, [s1, s2, s3])
+}
+
+Triangle.prototype = Object.create(Polygon.prototype)
+Triangle.prototype.constructor = Triangle
