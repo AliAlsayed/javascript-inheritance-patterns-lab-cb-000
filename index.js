@@ -41,3 +41,16 @@ function Polygon(sides){
 
 Polygon.prototype = Object.create(Shape.prototype)
 Polygon.prototype.constructor = Polygon
+
+
+Polygon.prototype.perimeter = function() {
+  var p = 0;
+  for(var i=0;i< this.sides.length; i++) {
+    p += this.sides[i].length;
+  }
+  return(p);
+} 
+
+Polygon.prototype.numberOfSides = function() {
+  return(this.sides.length);
+}
