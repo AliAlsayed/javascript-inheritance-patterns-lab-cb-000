@@ -22,8 +22,3 @@ function Circle(radius){
 }
 
 Circle.prototype = Object.create(Shape.prototype)
-
-
-
-
-
