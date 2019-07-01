@@ -67,7 +67,7 @@ Quadrilateral.prototype = Object.create(Polygon.prototype)
 Quadrilateral.prototype.constructor = Quadrilateral
 
 function Triangle(s1, s2, s3){
-  Polygon.call(this, [s1, s2, s3])
+  Polygon.call(this, [new Side(s1), new Side(s2), new Side(s3)])
 }
 
 Triangle.prototype = Object.create(Polygon.prototype)
