@@ -55,6 +55,10 @@ Polygon.prototype.numberOfSides = function() {
   return(this.sides.length);
 }
 
+function Quadrilateral(s1, s2, s3){
+  Polygon.call(this, [s1, s2, s3])
+}
+
 function Triangle(s1, s2, s3){
   Polygon.call(this, [s1, s2, s3])
 }
