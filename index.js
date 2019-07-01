@@ -22,7 +22,7 @@ Shape.prototype.move = function(x, y){
 }
 
 function Circle(radius){
-  Shape.call(this)
+  Shape.call(this);
   this.radius = radius
 }
 
